@@ -3,7 +3,7 @@
  * Plugin Name: Custom Ref BGWP
  * Plugin URI:  http://wanzul.net
  * Description: Add custom reference for GiveWP.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Wan Zulkarnain
  * Author URI:  https://www.wanzul.net
  * Text Domain: custom-ref-bgwp
