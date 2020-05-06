@@ -33,10 +33,18 @@ class CRBGWP_Logic
     {
       foreach (self::KEY as $key => $value){
         if (isset($post_data[$value]) && !empty($post_data[$value])){
-          $optional[$key] = $post_data[$value];
+          $optional[$key] = $this->identify_post_data_type($post_data[$value]);
         }
       }
       return $optional;
+    }
+
+    private function identify_post_data_type($post_data_value)
+    {
+      if (is_array($post_data_value)){
+        return join("", $post_data_value);
+      }
+      return $post_data_value;
     }
 
 }
