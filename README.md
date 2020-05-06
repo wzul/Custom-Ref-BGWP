@@ -9,6 +9,12 @@ Dynamically pass reference value based on user input
 - `billplz_reference_1_label` for Reference 1 Label value.
 - `billplz_reference_2_label` for Reference 2 Label value.
 
+## Setup
+
+- Ensure to define max character for Reference 1 & 2 with: **120**
+- Ensure to define max character for Reference 1 & 2 Label with: **20**
+
+
 ## Required plugins
 
 - [Give](https://wordpress.org/plugins/give/)
