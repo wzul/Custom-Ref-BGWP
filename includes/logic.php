@@ -29,7 +29,7 @@ class CRBGWP_Logic
         return static::$instance;
     }
 
-    public function filter_reference($post_data, $optional)
+    public function filter_reference($optional, $post_data)
     {
       foreach (self::KEY as $key => $value){
         if (isset($post_data[$value]) && !empty($post_data[$value])){
