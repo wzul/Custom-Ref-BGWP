@@ -13,6 +13,7 @@ class CRBGWP_Logic
       'reference_2' => 'billplz_reference_2',
       'reference_1_label' => 'billplz_reference_1_label',
       'reference_2_label' => 'billplz_reference_2_label',
+      'mobile' => 'billplz_mobile'
     ];
 
     private function __construct()
