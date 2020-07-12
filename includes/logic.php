@@ -16,6 +16,8 @@ class CRBGWP_Logic
     ];
     
     const MANDATORY_KEY = [
+      'name' => 'billplz_name',
+      'email' => 'billplz_email',
       'mobile' => 'billplz_mobile'
     ];
 
