@@ -9,6 +9,8 @@ Dynamically pass reference value based on user input
 - `billplz_reference_1_label` for Reference 1 Label value.
 - `billplz_reference_2_label` for Reference 2 Label value.
 - `billplz_mobile` for Mobile value.
+- `billplz_name` for Name value.
+- `billplz_email` for Email value.
 
 ## Setup
 
